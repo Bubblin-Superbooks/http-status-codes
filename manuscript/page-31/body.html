@@ -1,0 +1,5 @@
+<div class="leaf flex"><div class="inner justify"><p class="no-indent  ">Content-Length header field is present in the response, its value MUST match the actual number of OCTETs transmitted in the message-body.
+Date
+ETag and/or Content-Location, if the header would have been sent in a 200 response to the same request
+Expires, Cache-Control, and/or Vary, if the field-value might differ from that sent in any previous response for the same variant
+If the 206 response is the result of an If-Range request that used a strong cache validator (see section 13.3.3), the response SHOULD NOT include other entity-headers. If the response is the result of an If-Range request that used a weak validator, the response MUST NOT include other entity-headers; this prevents inconsistencies between cached entity-bodies and updated headers. Otherwise, the response MUST include all of the entity-headers that would have been returned with a 200 (OK) response to the same request.</p><p class=" stretch-last-line ">A cache MUST NOT combine a 206 response with</p></div> </div>

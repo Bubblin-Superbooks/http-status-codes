@@ -1,0 +1,11 @@
+{
+  "name": "HTTP STATUS CODES",
+  "type": "text",
+  "has_page_numbers": true,
+  "mode": {
+    "HTML": "html",
+    "CSS": "css",
+    "JS": "js",
+    "HEAD": "html"
+  }
+}
