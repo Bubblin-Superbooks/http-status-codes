@@ -1,5 +1,5 @@
 {
-  "name": "HTTP STATUS CODES",
+  "name": "Http Status Codes",
   "type": "text",
   "has_page_numbers": true,
   "mode": {
@@ -7,5 +7,15 @@
     "CSS": "css",
     "JS": "js",
     "HEAD": "html"
-  }
+  },
+  "cover": {
+    "punchline": "Notes gleaned from IETF and Wikipedia.",
+    "toc": "",
+    "author_detail": "",
+    "colophon": "",
+    "synopsis": ""
+  },
+  "status": "published",
+  "book_id": 1117,
+  "book_url": "https://bubblin.io/book/http-status-codes-by-marvin-danig"
 }

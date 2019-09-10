@@ -22,11 +22,9 @@ h1,
 h2,
 h3,
 h4 {
-  margin: calc(1/2 * 4vw * 1.50) 0;
   width: 100%;
   text-align: center;
   font-weight: 100;
-  line-height: calc(4vw * 1.50);
 }
 
 h1,
@@ -36,9 +34,16 @@ h4,
 h5,
 h6 {
   font-family: 'Berkshire Swash', cursive;
-  margin: calc(1/2 * 4vw * 1.50) 0;
+  margin: 0 0 calc(1/2 * 4vw * 1.50) 0;
+  line-height: calc(4vw * 1.50);
   padding: 0;
   color: #444;
+}
+
+h3 {
+  font-family: 'Berkshire Swash', cursive;
+  color: black;
+  font-size: 200%;
 }
 
 img {
@@ -71,22 +76,6 @@ p {
   margin: 0 0 0 0;
 }
 
-p.start-chapter {
-  text-indent: 0;
-  margin:  0 0 0;
-  margin: calc( 3 * 4 * (150vh *(1115/1443))/100 * 7/5) auto 0;
-}
-
-p.start-chapter:first-letter {
-  display: inline-block;
-  margin: 0 1vw 0 0;
-  float: left;
-  font-size: calc( 3 * 4vw ); /* three times normal size */
-  line-height: calc(2 * 4vw * 1.50 * 0.95);
-  font-family: 'Berkshire Swash', cursive;
-  /* background: yellow; */     /* Test what looks good on your book */
-}
-
 
 blockquote {
   text-align: center;
@@ -110,7 +99,6 @@ code {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
-/*  margin: 0 auto calc( 4 * (150vh *(1115/1443))/100 * 7/5); */
   margin: 0;
   text-align: center;
   font-family: 'EB Garamond', serif;
@@ -122,13 +110,6 @@ code {
   line-height: calc(4vw * 1.50);
   font-kerning: normal;
   text-rendering: geometricPrecision;
-}
-
-h3 {
-  font-family: 'Berkshire Swash', cursive;
-  line-height: 1.2em;
-  color: black;
-  font-size: 200%;
 }
 
 ol {
